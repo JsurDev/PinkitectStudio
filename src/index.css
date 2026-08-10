@@ -55,21 +55,29 @@ body {
   align-items: center;
 }
 
-.header h1 {
-  padding: 5px;
-  font-size: 40px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 3px;
-  color: var(--text-color);
+.header {
+  h1,
+  h2 {
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: var(--text-color);
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
 
 .header h3 {
   padding: 5px;
   font-size: 15px;
   text-transform: uppercase;
-  text-align: center; 
+  text-align: center;
   font-weight: bold;
   letter-spacing: 1px;
   color: var(--subText-color);
