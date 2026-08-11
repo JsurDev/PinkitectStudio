@@ -1,16 +1,41 @@
-# React + Vite
+# 🏛️ Pinkitect Studio — Architectural Harmonies
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> *Un sitio para un arquitecto in the making.*
 
-Currently, two official plugins are available:
+Un estudio de interfaz y portafolio  desarrollado con **React**, **JavaScript** y **CSS Grid**. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📐 Concepto del Proyecto
 
-## React Compiler
+**Pinkitect Studio** nace de la idea de transformar un plano de arquitectura en un lienzo interactivo (*Canvas Layout*). El diseño busca simular el entorno de trabajo de un software CAD/dibujo técnico mediante:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Sistema de Retícula (Grid System):** Maquetación responsiva basada en CSS Grid para estructurar módulos modulares.
+- **Micro-interacciones:** Retroalimentación visual inmediata en tarjetas y módulos mediante variables de CSS y estados de React.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tecnologías Utilizadas
+
+- **Frontend:** [React.js](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Estilos:** CSS3 Natero (CSS Grid, Flexbox, Variables CSS / `:root`, Anidamiento CSS)
+- **Tipografía:** Roboto
+- **Iconografía y Vectores:** SVG vectoriales escalables
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+src/
+├── assets/
+│   └── images/          # Fondos y recursos visuales
+├── components/
+│   ├── Header.jsx       # Encabezado principal del estudio
+│   ├── Layout.jsx       # Estructura del lienzo e iteraciones de Grid
+│   └── ...
+├── App.jsx              # Componente principal
+├── App.css              # Reglas de maquetación, temas y retícula
+└── main.jsx             # Punto de entrada de React
+
+--------------
+
