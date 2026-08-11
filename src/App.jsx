@@ -1,5 +1,5 @@
-import Header from "./assets/svg/componentes/Header";
-import Layout from "./assets/svg/componentes/Layout";
+import Header from "./componentes/Header/Header";
+import Layout from "./componentes/Layout/Layout";
 
 function App() {
   return (

@@ -1,0 +1,22 @@
+:root {
+  --body-background: #1c2332;
+  --title-background: #3e5c76;
+  --card-background: #1d2d44;
+  --text-color: #f2f2f2;
+  --subText-color: #a19d9d;
+}
+
+.box {
+  background-color: var(--body-background);
+}
+
+.contenedor-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 200px 150px 200px;
+  grid-template-rows: repeat(3, 200px); /*200px 200px 200px*/
+  grid-template-areas:
+    "box-1 box-2 box-3 box-3"
+    "box-1 box-4 box-4 box-4"
+    "box-5 box-5 box-5 box-5";
+}
