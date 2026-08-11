@@ -1,4 +1,4 @@
-# 🏛️ Pinkitect Studio — Architectural Harmonies
+# 🏛️ Pinkitect Studio — Dedicado a una chica que me tiene loco.
 
 > *Un sitio para un arquitecto in the making.*
 
