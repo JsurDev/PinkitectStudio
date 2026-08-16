@@ -4,8 +4,8 @@
   --body-background: #2d2f32;
   --title-background: #3e5c76;
   --card-background: #1d2d44;
-  --text-color: rgb(220, 91, 115);
-  --punkColor: rgb(204, 148, 157);
+  --text-color: #e3ccd3;
+  --punkColor: #b3b9c1;
   --btn-text-color: rgb(220, 91, 115);
 }
 .contenedor-grid {
@@ -33,6 +33,10 @@
     align-items: center;
     text-align: center;
     min-height: 150px; /* Le damos una altura mínima elegante a cada tarjeta */
+    color: #ffd1dc; /* Rosa pastel/claro con alto contraste */
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 94, 142, 0.3); /* Un leve brillo ayuda bastante */
   }
 
   .musicList {

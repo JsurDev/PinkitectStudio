@@ -2,8 +2,8 @@
   --body-background: #2d2f32;
   --title-background: #3e5c76;
   --card-background: #1d2d44;
-  --text-color: rgb(220, 91, 115);
-  --punkColor: rgb(204, 148, 157);
+  --text-color: #e3ccd3;
+  --punkColor: #b3b9c1;
   --btn-text-color: rgb(9, 8, 8);
 }
 
@@ -14,6 +14,7 @@
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   align-items: center;
+  text-shadow: 0 0 10px rgba(255, 94, 142, 0.3); /* Un leve brillo ayuda bastante */
 }
 
 .header {

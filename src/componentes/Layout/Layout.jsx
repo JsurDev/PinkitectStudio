@@ -45,7 +45,7 @@ const Layout = () => {
         </div>
         <div className="playList">
           <div className="casseteIcon">
-            <CassetteTape size={125} color="rgb(211, 104, 122)" />
+            <CassetteTape size={125} color="#d2adb8" />
           </div>
           <div className="musicList">
             <div className="headerLista">
