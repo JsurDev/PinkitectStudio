@@ -187,6 +187,32 @@
   .canciones {
     list-style-type: none; /*Eliminamos puntos que crea el LI*/
     margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  /* Aplicamos Flexbox a cada fila LI */
+  .canciones li {
+    display: flex;
+    align-items: center; /* Alinea icono y texto verticalmente al centro */
+    justify-content: flex-start; /* Alinea todo el contenido hacia la izquierda */
+    gap: 10px; /* Espacio horizontal entre el icono de música y el enlace */
+  }
+
+  .canciones a span {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease; /* Transición suave */
+  }
+
+  .canciones li a:hover span {
+    color: rgb(
+      229,
+      66,
+      96
+    ) !important; /* !important asegura sobreescribir cualquier otro estilo */
   }
 
   /*Cuando el tamaño cambie se reordena el layout*/

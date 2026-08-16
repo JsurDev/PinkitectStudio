@@ -5,9 +5,6 @@ import vector2 from "../../assets/images/vector2.png";
 import vector3 from "../../assets/images/vector3.png";
 import vector4 from "../../assets/images/vector4.jpg";
 
-import React, { useState } from "react";
-import ReactPlayer from "react-player";
-
 const Layout = () => {
   const customAreas = {
     areaCocepto: { gridArea: "box-1" },
@@ -62,16 +59,43 @@ const Layout = () => {
               <ul className="canciones">
                 <li>
                   <Music size={18} color="rgb(229, 66, 96)"></Music>
-                  <span></span>
+                  <a
+                    href="https://youtu.be/5NPBIwQyPWE?si=e1tRGp5HQiD9rwQh"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>Avril Lavigne - Complicated</span>
+                  </a>
                 </li>
                 <li>
                   <Music size={18} color="rgb(229, 66, 96)"></Music>
+                  <a
+                    href="https://youtu.be/wNHGT-neTes?si=jUXeaSXGi7bse6Bn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>blink-182 - I Miss You</span>
+                  </a>
                 </li>
                 <li>
                   <Music size={18} color="rgb(229, 66, 96)"></Music>
+                  <a
+                    href="https://youtu.be/fV4DiAyExN0?si=SGpNal2WJrERGnxi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>Hoobastank - The Reason</span>
+                  </a>
                 </li>
                 <li>
                   <Music size={18} color="rgb(229, 66, 96)"></Music>
+                  <a
+                    href="https://youtu.be/iAP9AF6DCu4?si=MvbUXsQCE7MRdxBJ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>The Calling - Wherever You Will Go </span>
+                  </a>
                 </li>
               </ul>
             </div>
