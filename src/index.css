@@ -5,7 +5,7 @@
   --title-background: #3e5c76;
   --card-background: #1d2d44;
   --text-color: #f2f2f2;
-  --subText-color: #a19d9d;
+  --subText-color: #e6d7d7;
 }
 
 * {
@@ -13,7 +13,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  filter: grayscale(1);
+  /*  filter: grayscale(1);
+*/
 }
 
 .lineaDivisoria {
@@ -35,7 +36,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 20px auto;
-  background-color: rgba(72, 78, 91, 0.85);
+  background-color: #484c53;
   border-radius: 10px;
   padding: 30px;
 }

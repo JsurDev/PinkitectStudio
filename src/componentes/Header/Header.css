@@ -1,9 +1,18 @@
+:root {
+  --body-background: #2d2f32;
+  --title-background: #3e5c76;
+  --card-background: #1d2d44;
+  --text-color: rgb(220, 91, 115);
+  --punkColor: rgb(204, 148, 157);
+  --btn-text-color: rgb(9, 8, 8);
+}
+
 .header {
   display: flex;
   flex-direction: column;
   margin-bottom: 5px;
   padding-bottom: 10px;
-  border-bottom: px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   align-items: center;
 }
 
@@ -32,5 +41,5 @@
   text-align: center;
   font-weight: bold;
   letter-spacing: 1px;
-  color: var(--subText-color);
+  color: var(--punkColor);
 }

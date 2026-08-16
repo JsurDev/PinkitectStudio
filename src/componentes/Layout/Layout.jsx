@@ -1,4 +1,12 @@
 import "./Layout.css";
+import { Play, CassetteTape, ListPlus, Music, Pause } from "lucide-react";
+import hustleImg from "../../assets/images/hustle.jpg";
+import vector2 from "../../assets/images/vector2.png";
+import vector3 from "../../assets/images/vector3.png";
+import vector4 from "../../assets/images/vector4.jpg";
+
+import React, { useState } from "react";
+import ReactPlayer from "react-player";
 
 const Layout = () => {
   const customAreas = {
@@ -12,15 +20,63 @@ const Layout = () => {
   return (
     <div className="contenedor-grid">
       <div className="box" style={customAreas.areaCocepto}>
-        <h3>CONCEPT DRAWING</h3>
+        <div className="conceptoContenedor">
+          <h4>CONCEPT DRAWING</h4>
+          <div className="imgWrap">
+            <img src={vector2} alt="Vector diseño" className="imgCocepto" />
+          </div>
+        </div>
       </div>
-      <div className="box" style={customAreas.areaVector}></div>
+      <div className="box" style={customAreas.areaVector}>
+        <img src={vector4} alt="Vector libre" className="vectorLibre" />
+      </div>
       <div className="box" style={customAreas.areaPhilosophy}>
-        <h3>DESING PHILOSOPHY</h3>
+        <h4>DESING PHILOSOPHY</h4>
+        <img src={vector3} alt="Vector Philosophy" className="imgPhilosophy" />
       </div>
-      <div className="box" style={customAreas.areaCanva}></div>
-      <div className="box" style={customAreas.areaMusic}>
-        SOUNDTRACK
+      <div className="box" style={customAreas.areaCanva}>
+        <img src={hustleImg} alt="Hustle artwork" className="imgCanva" />
+      </div>
+      <div className="boxSoundtrack" style={customAreas.areaMusic}>
+        <div className="soundtrackDiv">
+          <h4>SOUNDTRACK</h4>
+          <hr className="linea" />
+          <button className="btnPlay" type="button">
+            <span>Play</span>
+            <Play size={16} color="rgb(66, 38, 43)" fill="rgb(66, 38, 43)" />
+          </button>
+        </div>
+        <div className="playList">
+          <div className="casseteIcon">
+            <CassetteTape size={125} color="rgb(211, 104, 122)" />
+          </div>
+          <div className="musicList">
+            <div className="headerLista">
+              <span>
+                <ListPlus size={23} color="rgb(229, 66, 96)" />
+                Lista de musica
+              </span>
+              <hr className="linea" />
+            </div>
+            <div className="listaMusica">
+              <ul className="canciones">
+                <li>
+                  <Music size={18} color="rgb(229, 66, 96)"></Music>
+                  <span></span>
+                </li>
+                <li>
+                  <Music size={18} color="rgb(229, 66, 96)"></Music>
+                </li>
+                <li>
+                  <Music size={18} color="rgb(229, 66, 96)"></Music>
+                </li>
+                <li>
+                  <Music size={18} color="rgb(229, 66, 96)"></Music>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
